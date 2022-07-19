@@ -1,5 +1,8 @@
 # rockethelp
 
-App criado no evento Ignite Lab da Rocketseat 
+An app to provide assistance and support to desk helpers
 
-
+Screens created 🛠️
+Screen details 🛠️
+Navigation 🛠️
+Final tweaks 🛠️
