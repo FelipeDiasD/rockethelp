@@ -76,7 +76,7 @@ const navigation = useNavigation()
   }, [statusSelected])
 
   return (
-    <VStack flex = {1} pb = {6} bg = 'gray.700' >
+    <VStack flex = {1} pb = {6} bg = 'gray.700' px = {4} >
       <HStack 
       w = 'full' 
       justifyContent= 'space-between' 
@@ -108,7 +108,7 @@ const navigation = useNavigation()
          </Heading>
 
          <Text color = {colors.gray[100]}>
-          3
+          {orders.length}
 
          </Text>
           

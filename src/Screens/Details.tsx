@@ -5,7 +5,7 @@ import { Alert } from 'react-native';
 import { VStack, Text, HStack, useTheme, ScrollView, Box } from 'native-base';
 import { Header } from '../components/Header';
 import { Loading } from '../components/Loading';
-import {CircleWavyCheck, Hourglass, DesktopTower, Clipboard} from 'phosphor-react-native'
+import {CircleWavyCheck, Hourglass, DesktopTower, ClipboardText} from 'phosphor-react-native'
 import {CardDetails} from '../components/CardDetails'
 import { Input } from '../components/Input';
 import { Button } from '../components/Button';
@@ -126,12 +126,13 @@ export function Details() {
           title = 'equipamento'
           description = {`Patrimônio ${order.patrimony}`}
           icon = {DesktopTower}
-          footer={order.when}/>
+          />
           
           <CardDetails 
           title = 'descrição do problema'
           description = {order.description}
-          icon = {Clipboard}
+          icon = {ClipboardText}
+          footer={`Registrado em ${order.when}`}
           />
           
           <CardDetails 
